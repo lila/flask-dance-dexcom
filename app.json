@@ -1,0 +1,23 @@
+{
+  "name": "Flask-Dance with Dexcom",
+  "description": "Testing Flask-Dance's OAuth integration with Dexcom",
+  "keywords": [
+    "oauth"
+  ],
+  "website": "https://github.com/lila/flask-dance-dexcom",
+  "repository": "https://github.com/lila/flask-dance-dexcom",
+  "env": {
+    "FLASK_SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "DEXCOM_OAUTH_CLIENT_ID": {
+      "description": "The OAuth client ID for your application, assigned by Dexcom",
+      "value": "client-id-goes-here"
+    },
+    "DEXCOM_OAUTH_CLIENT_SECRET": {
+      "description": "The OAuth client secret for your application, assigned by Dexcom",
+      "value": "client-secret-goes-here"
+    }
+  }
+}
